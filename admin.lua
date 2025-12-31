@@ -4,8 +4,8 @@ local data = _G.KimikoData
 local Texts = data.Texts
 local Colors = data.Colors
 local adminContent = data.contentFrames.admin
-local SUPABASE_URL = "https://tu-proyecto.supabase.co/rest/v1/"  -- Reemplaza
-local SUPABASE_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InR1LXByb3llY3RvIiwicm9sZSI6ImFub24iLCJpYXQiOjE3MjAwMDAwMDAsImV4cCI6MjAzNTU1NTU1NX0.tu-clave-anon"  -- Reemplaza
+local SUPABASE_URL = "https://juickyhrhpwjqztpnuag.supabase.co"  -- Reemplaza
+local SUPABASE_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imp1aWNreWhyaHB3anF6dHBudWFnIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjcxNTM2NTksImV4cCI6MjA4MjcyOTY1OX0.J1_BzEFdyYClqP5__rPzTLRvg0ngCorJWf8vA1rghzg"  -- Reemplaza
 local headers = {["apikey"] = SUPABASE_KEY, ["Content-Type"] = "application/json"}
 
 -- Crear UI en adminContent
